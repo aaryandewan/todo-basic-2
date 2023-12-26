@@ -32,6 +32,7 @@ const TodoList: React.FC<Props> = ({ todos, toggleTodo, editTodo, edit, setEdit 
                 value={value}
                 onChange={e => setValue(e.target.value)}
               />
+                <button type="submit">Edit Todo</button>
             </form>
           ) : (
             <>

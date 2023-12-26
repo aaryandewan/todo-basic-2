@@ -34,7 +34,6 @@ const App: React.FC = () => {
     <div className="todo-container">
     <AddTodo addTodo={addTodo} className="add-todo" />
     <TodoList todos={todos} toggleTodo={toggleTodo} editTodo={editTodo} edit={edit} setEdit={setEdit} className="todo-list" />
-    {/* <TodoList todos={todos} toggleTodo={toggleTodo} className="todo-list" /> */}
   </div>
   );
 };
